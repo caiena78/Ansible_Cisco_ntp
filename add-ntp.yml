@@ -5,7 +5,7 @@
   tasks:
     - name: set NTP servers
       cisco.ios.ios_ntp:
-        server: 10.101.0.59
+        server: "{{ntp}}
         logging: false
         state: present
 
