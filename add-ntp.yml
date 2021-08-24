@@ -8,6 +8,4 @@
       logging: false
       state: present
 
-    - name: Save Config
-      cisco.ios.ios_config:
-        save_when: modified  
+   
