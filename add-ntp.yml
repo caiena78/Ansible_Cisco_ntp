@@ -3,7 +3,8 @@
   hosts: networksw
 
   tasks:
-    - cisco.ios.ios_ntp:
+    - name: set NTP servers
+      cisco.ios.ios_ntp:
         server: 10.101.0.59
         logging: false
         state: present
