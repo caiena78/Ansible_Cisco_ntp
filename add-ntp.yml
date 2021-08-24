@@ -4,8 +4,8 @@
   tasks:
     - name: set NTP
       cisco.ios.ios_ntp:
-      server: 10.101.0.59
-      logging: false
-      state: present
+       server: 10.101.0.59
+       logging: false
+       state: present
 
    
