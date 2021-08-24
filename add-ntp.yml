@@ -5,7 +5,7 @@
   tasks:
     - name: set NTP servers
       cisco.ios.ios_ntp:
-        server: "{{ntp}}
+        server: "{{ntp}}"
         logging: false
         state: present
 
