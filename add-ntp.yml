@@ -1,6 +1,6 @@
 ---
 - name: set NTP servers
-  hosts: it
+  hosts: itbuilding
 
   tasks:
     - name: set NTP servers
