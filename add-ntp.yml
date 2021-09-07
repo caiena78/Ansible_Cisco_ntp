@@ -1,6 +1,6 @@
 ---
 - name: set NTP servers
-  hosts: Hospital
+  hosts: all
 
   tasks:
     - name: set NTP servers
